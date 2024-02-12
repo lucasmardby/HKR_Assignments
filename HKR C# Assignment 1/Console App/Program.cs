@@ -294,6 +294,9 @@
         public static void WarmUp() 
         {
             //warm-up before doing all the tasks
+            Console.WriteLine("---Warm Up--");
+            Console.WriteLine();
+
             Console.WriteLine("Please enter a number to be calculated.");
             float result1 = 0.00F, result2 = 0.00F, result3 = 0.00F;
             string userInput = Console.ReadLine();
